@@ -1,0 +1,12 @@
+.fundo{
+    padding: 5px;
+    background:#696969;
+}
+
+.container-assistir{
+    display: flex;
+    background: #000000;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 80px;
+}

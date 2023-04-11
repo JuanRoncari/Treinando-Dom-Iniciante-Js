@@ -1,0 +1,135 @@
+.container-main{
+    max-width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.container-conteudo{
+    margin: 150px auto;
+    margin-left: 100px;
+}
+
+.container-conteudo h1{
+    font-size: 2.8rem;
+    color: #f7f7f7;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.container-conteudo h2{
+    color: #f7f7f7;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.container-conteudo p{
+    margin-bottom: 10px;
+    color: #f7f7f7;
+    font-size: 1.3rem;
+}
+
+.input{
+    border-radius: 4px;
+    padding: 16px;
+    width: 400px;
+    margin-left: 180px;
+    margin-top: 10px;
+    background:#D3D3D3;
+    display: inline-block;
+}
+
+.botao{
+    padding: 16px;
+    background: red;
+    color: #f7f7f7;
+    border: none;
+    font-size: 16px;
+    margin-left: 2px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.botao:hover{
+    transition: 0.3s;
+    background:#8B0000;
+}
+
+@media(max-width: 728px){
+    .container-main{
+        max-width: 600px;
+        height: 200px;
+        margin: 40px auto;
+    }
+    .container-conteudo{
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .container-conteudo h2,p{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .container-conteudo h1{
+        display: none;
+    }
+    .input{
+        display: none;
+    }
+    .botao{
+        margin-top: 10px;
+        margin-left: 250px;
+    }
+}
+
+@media(max-width: 980px){
+    .container-main{
+        max-width: 600px;
+        height: 200px;
+        margin: 40px auto;
+    }
+    .container-conteudo{
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .container-conteudo h2,p{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .container-conteudo h1{
+        display: none;
+    }
+    .input{
+        display: none;
+    }
+    .botao{
+        margin-top: 10px;
+        margin-left: 250px;
+    }
+}
+
+@media(max-width: 574px){
+    .container-main{
+        max-width: 600px;
+        height: 200px;
+        margin: 40px auto;
+    }
+    .container-conteudo{
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .container-conteudo h2,p{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .container-conteudo h1{
+        display: none;
+    }
+    .input{
+        display: none;
+    }
+    .botao{
+        margin-top: 10px;
+        margin-left: 250px;
+    }
+}

@@ -1,0 +1,107 @@
+.container-perguntas-principal{
+    background: #000000;
+}
+
+.container-perguntas-principal h1{
+    text-align: center;
+    color: #f7f7f7;
+    padding-top: 80px;
+    font-size: 2rem;
+}
+
+.container-perguntas-principal p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.input1{
+    position: relative;
+    left: 450px;
+    padding: 10px;
+    margin-top: 10px;
+    width: 350px;
+    background: #D3D3D3;
+}
+
+.botao1{
+    position: relative;
+    left: 450px;
+    padding: 10px;
+    margin-top: 10px;
+    padding: 16px;
+    background: red;
+    color: #f7f7f7;
+    border: none;
+    font-size: 16px;
+    margin-left: 2px;
+    border-radius: 4px;
+}
+
+.container-perguntas{
+    color: #f7f7f7;
+    width: 800px;
+    margin: 50px auto;
+}
+
+.container-perguntas dt{
+    background:#363636;
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.container-perguntas dt::after{
+    content: "+";
+    position: absolute;
+    left: 1025px;
+}
+
+.content-perguntas dd.ativo{
+    background: #363636;
+    color: #f7f7f7;
+}
+
+.js-accordion dd{
+    display: none;
+  }
+  
+  .js-accordion dt::after{
+    content: '+';
+    margin-left: 10px;
+  }
+  
+  .js-accordion dt.ativo::after{
+    content: '⬏';
+  }
+  
+  .js-accordion dd.ativo{
+    display: block;
+    background: #363636;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    animation: slideDowm .5s forwards;
+  }
+
+
+  @keyframes slideDowm{
+    from{
+      opacity: 0;
+    }
+    to{
+      opacity: 1;
+    }
+}
+
+.js-scroll{
+    opacity: 0;
+    transform: translate3d(-30px, 0, 0 );
+    transition: .3s;
+  }
+  
+  .js-scroll.ativo{
+    opacity: 1;
+    transform: translate3d(0, 0, 0 );
+  }

@@ -1,0 +1,31 @@
+.container-anuncio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000000;
+    padding-bottom: 80px;
+}
+
+.container-anuncio-tags h1,p{
+    color: #f7f7f7;
+    margin-left: 100px;
+}
+
+.container-anuncio-tags h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.container-anuncio-tags p{
+    font-size: 1.5rem;
+}
+
+@media(max-width:975px){
+    .container-anuncio-tags h1{
+        font-size: 2.5rem;
+    } 
+    .container-anuncio-tags p{
+        font-size: 1rem;
+    }
+
+}
